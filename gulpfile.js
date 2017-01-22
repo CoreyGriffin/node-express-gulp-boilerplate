@@ -13,6 +13,8 @@ const runSequence = require('run-sequence');
 const autoprefixer = require('gulp-autoprefixer');
 const babel = require('gulp-babel');
 
+//nodemon integration by sokgo @ https://github.com/sogko/gulp-recipes
+
 //  A slight delay to reload browsers
 // connected to browser-sync after restarting nodemon
 let BROWSER_SYNC_RELOAD_DELAY = 500;
