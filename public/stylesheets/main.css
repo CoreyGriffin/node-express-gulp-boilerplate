@@ -1,4 +1,6 @@
 html {
-  background: blue; }
+  background: blue;
+  display: -ms-flexbox;
+  display: flex; }
 
 /*# sourceMappingURL=maps/main.css.map */
