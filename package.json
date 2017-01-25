@@ -1,13 +1,8 @@
 {
-  "name": "node-express-gulp boilerplate",
+  "name": "node-express-gulp-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "## npm install",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "corey griffin",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
     "hbs": "^4.0.1"
@@ -25,9 +20,23 @@
     "gulp-imagemin": "^3.1.1",
     "gulp-nodemon": "^2.2.1",
     "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0",
     "gulp-uglify": "^2.0.0",
     "gulp-useref": "^3.1.2",
     "morgan": "^1.7.0",
     "run-sequence": "^1.2.2"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoreyGriffin/node-express-gulp-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoreyGriffin/node-express-gulp-boilerplate/issues"
+  },
+  "homepage": "https://github.com/CoreyGriffin/node-express-gulp-boilerplate#readme"
 }
